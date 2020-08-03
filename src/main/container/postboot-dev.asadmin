@@ -1,0 +1,2 @@
+create-jdbc-connection-pool --datasourceclassname org.h2.jdbcx.JdbcDataSource --restype javax.sql.DataSource --property user=issue:password=issue:DatabaseName=issue:url="jdbc:h2:/tmp/issue;AUTO_SERVER=TRUE" issue-pool
+create-jdbc-resource --connectionpoolid issue-pool jdbc/issue
