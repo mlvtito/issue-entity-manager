@@ -25,4 +25,8 @@ public class TestEvent {
     public void setData(String data) {
         this.data = data;
     }
+    
+    public String toString() {
+        return "TestEvent[" + data + "]";
+    }
 }
